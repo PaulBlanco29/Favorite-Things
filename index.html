@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Favorite Things</title>
+</head>
+<body>
+	<h1>My Favorite Things</h1>
+	<form action="process-form.php" method="GET">
+		<h2>Books i've read</h2>
+		<ul>
+			<li><input type="checkbox" id="book1" name="books[]" value="The Lord of the Rings"><label for="book1">The Lord of the Rings</label></li>
+			<li><input type="checkbox" id="book2" name="books[]" value="To Kill a Mockingbird"><label for="book2">To Kill a Mockingbird</label></li>
+			<li><input type="checkbox" id="book3" name="books[]" value="The Great Gatsby"><label for="book3">The Great Gatsby</label></li>
+		</ul>
+		
+		<h2>Movies Ratings</h2>
+		<ul>
+			<li><label for="movie1">The Shawshank Redemption:</label><input type="range" id="movie1" name="movies[movie1]" min="1" max="10"></li>
+			<li><label for="movie2">The Godfather:</label><input type="range" id="movie2" name="movies[movie2]" min="1" max="10"></li>
+			<li><label for="movie3">Pulp Fiction:</label><input type="range" id="movie3" name="movies[movie3]" min="1" max="10"></li>
+		</ul>
+		
+		<h2>Best Music</h2>
+		<ol>
+			<li><input type="radio" id="music1" name="music" value="The Beatles"><label for="music1">The Beatles</label></li>
+			<li><input type="radio" id="music2" name="music" value="Bob Dylan"><label for="music2">Bob Dylan</label></li>
+			<li><input type="radio" id="music3" name="music" value="Johnny Cash"><label for="music3">Johnny Cash</label></li>
+		</ol>
+		
+	
+	</form>
+</body>
+</html>
